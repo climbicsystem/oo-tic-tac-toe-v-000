@@ -88,4 +88,8 @@ class TicTacToe
     full? || draw? || won?
   end
 
+  def winner
+    
+  end
+
 end
