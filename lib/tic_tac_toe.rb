@@ -81,11 +81,11 @@ class TicTacToe
   end
 
   def draw?
-    !won? && full?
+    if !won? && full?
   end
 
   def over?
-    
+
   end
 
 end
