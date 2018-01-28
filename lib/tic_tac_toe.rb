@@ -91,7 +91,7 @@ class TicTacToe
   def winner
     winning_combination = won?
     if won?
-      puts winning_combination[0]
+      winning_combination[0]
     end
   end
 
